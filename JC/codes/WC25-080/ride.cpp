@@ -1,0 +1,72 @@
+#include<bits/stdc++.h>
+using namespace std;
+string n[1000],m[10000];
+int main(){
+	int i=0;
+	dool n[i],m[i];
+for(i=0;i<66;i++){
+	cin>>n[i];
+	if(n[i]="A"){
+	n1*1;	
+	}
+	if(n[i]="B"){
+	n1*2;	
+	}
+	if(n[i]="C"){n1*3;}
+	if(n[i]="D"){n1*4;}
+	if(n[i]="E"){n1*5;}
+	if(n[i]="F"){n1*6;}
+	if(n[i]="G"){n1*7;}
+	if(n[i]="H"){n1*8;}
+	if(n[i]="I"){n1*9;}
+	if(n[i]="J"){n1*10;}
+	if(n[i]="K"){n1*11;}
+	if(n[i]="L"){n1*12;}
+	if(n[i]="M"){n1*13;}
+	if(n[i]="N"){n1*14;}
+	if(n[i]="O"){n1*15;}
+	if(n[i]="P"){n1*16;}
+	if(n[i]="Q"){n1*17;}
+	if(n[i]="R"){n1*18;}
+	if(n[i]="S"){n1*19;}
+	if(n[i]="T"){n1*20;}
+	if(n[i]="U"){n1*21;}
+	if(n[i]="V"){n1*22;}
+	if(n[i]="W"){n1*23;}
+	if(n[i]="X"){n1*24;}
+	if(n[i]="Y"){n1*25;}
+	if(n[i]="Z"){n1*26;}
+	i++;
+}
+for(i=0;i<66;i++){
+	cin>>m[i];
+	if(m[i]="A"){m1*1;}
+	if(m[i]="B"){m1*2;}
+	if(m[i]="C"){m1*3;}
+	if(m[i]="D"){m1*4;}
+	if(m[i]="E"){m1*5;}
+	if(m[i]="F"){m1*6;}
+	if(m[i]="G"){m1*7;}
+	if(m[i]="H"){m1*8;}
+	if(m[i]="I"){m1*9;}
+	if(m[i]="J"){m1*10;}
+	if(m[i]="K"){m1*11;}
+	if(m[i]="L"){m1*12;}
+	if(m[i]="M"){m1*13;}
+	if(m[i]="N"){m1*14;}
+	if(m[i]="O"){m1*15;}
+	if(m[i]="P"){m1*16;}
+	if(m[i]="Q"){m1*17;}
+	if(m[i]="R"){m1*18;}
+	if(m[i]="S"){m1*19;}
+	if(m[i]="T"){m1*20;}
+	if(m[i]="U"){m1*21;}
+	if(m[i]="V"){m1*22;}
+	if(m[i]="W"){m1*23;}
+	if(m[i]="X"){m1*24;}
+	if(m[i]="Y"){m1*25;}
+	if(m[i]="Z"){m1*26;}
+	i++;
+}
+cin>>n1>>m1;
+}

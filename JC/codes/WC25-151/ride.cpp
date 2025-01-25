@@ -1,0 +1,124 @@
+#include<bits/stdc++.h>
+using namespace std;
+char a[66],b[66];
+int main ()
+{ 
+	long long c,d;
+for(int i=1;i<6;i++){
+	cin>>a[i];
+	if(a[i]=='A'){
+		c*=1;}
+	if(a[i]=='B'){
+		c*=2;}
+	if(a[i]=='C'){
+		c*=3;}
+	if(a[i]=='D'){
+		c*=4;}
+	if(a[i]=='E'){
+		c*=5;}
+	if(a[i]=='F'){
+		c*=6;}
+	if(a[i]=='G'){
+		c*=7;}
+	if(a[i]=='H'){
+		c*=8;}
+	if(a[i]=='I'){
+		c*=9;}	
+	if(a[i]=='J'){
+		c*=10;}
+	if(a[i]=='K'){
+		c*=11;}
+	if(a[i]=='L'){
+		c*=12;}
+	if(a[i]=='M'){
+		c*=13;}
+	if(a[i]=='N'){
+		c*=14;}
+	if(a[i]=='O'){
+		c*=15;}
+	if(a[i]=='P'){
+		c*=16;}
+	if(a[i]=='Q'){
+		c*=17;}
+	if(a[i]=='R'){
+		c*=18;}
+	if(a[i]=='S'){
+		c*=19;}
+	if(a[i]=='T'){
+		c*=20;}
+	if(a[i]=='V'){
+		c*=21;}
+	if(a[i]=='U'){
+		c*=22;}
+	if(a[i]=='W'){
+		c*=23;}
+	if(a[i]=='X'){
+		c*=24;}
+	if(a[i]=='Y'){
+		c*=25;}
+	if(a[i]=='Z'){
+		c*=26;}
+}
+for(int i=1;i<6;i++){
+	cin>>b[i];
+	if(a[i]=='A'){
+		d*=1;}
+	if(a[i]=='B'){
+		d*=2;}
+	if(a[i]=='C'){
+		d*=3;}
+	if(a[i]=='D'){
+		d*=4;}
+	if(a[i]=='E'){
+		d*=5;}
+	if(a[i]=='F'){
+		d*=6;}
+	if(a[i]=='G'){
+		d*=7;}
+	if(a[i]=='H'){
+		d*=8;}
+	if(a[i]=='I'){
+		d*=9;}	
+	if(a[i]=='J'){
+		d*=10;}
+	if(a[i]=='K'){
+		d*=11;}
+	if(a[i]=='L'){
+		d*=12;}
+	if(a[i]=='M'){
+		d*=13;}
+	if(a[i]=='N'){
+		d*=14;}
+	if(a[i]=='O'){
+		d*=15;}
+	if(a[i]=='P'){
+		d*=16;}
+	if(a[i]=='Q'){
+		d*=17;}
+	if(a[i]=='R'){
+		d*=18;}
+	if(a[i]=='S'){
+		d*=19;}
+	if(a[i]=='T'){
+		d*=20;}
+	if(a[i]=='V'){
+		d*=21;}
+	if(a[i]=='U'){
+		d*=22;}
+	if(a[i]=='W'){
+		d*=23;}
+	if(a[i]=='X'){
+		d*=24;}
+	if(a[i]=='Y'){
+		d*=25;}
+	if(a[i]=='Z'){
+		d*=26;}
+}
+if(c==d){
+	cout<<"GO";
+}
+else{
+	cout<<"STAY";
+}
+return 0;	
+}

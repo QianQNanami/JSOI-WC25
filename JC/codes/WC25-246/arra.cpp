@@ -1,0 +1,44 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	cin>>a>>b;
+	a1=a;
+	b1=b;
+	while(a1-b1-1){
+	if(((a1-b1)/2)<b1)
+	{
+		if(((a1-b1)/2+b1)<b1)
+	    {
+		   sum+=2;
+	    }
+	    else{
+	    	sum++;
+		}
+	}
+	else
+	{
+	   a1=(a1-b1)/2+b1;  
+	}
+}
+	//ÎÒÌ«ÄÑÁË 
+	a1=a;
+	b1=b;
+	while(a1-b1){
+	if(((a1-b1)/2)>b)
+	{
+	   a1=(a1-b1)/2;
+	   if(((a1-b1)/2)<b1)
+	{
+		if(((a1-b1)/2+b1)<b1)
+	    {
+		   sum+=2;
+	    }
+	    else{
+	    	sum++;
+		}
+	}	
+	}
+}
+cout<<sum;
+	return 0;
+}
