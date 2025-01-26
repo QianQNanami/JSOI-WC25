@@ -1,0 +1,49 @@
+#include<bits/stdc++.h>
+using namespace std;
+int x,c,sum,f;
+int main()
+{
+	while(1)
+	{
+		cin>>x;
+		c++;
+		sum+=x*c*c;
+		if(c==2&&x==6)
+		{
+			f++;
+		}
+		if(c==3&&x==1)
+		{
+			f++;
+		}
+		if(c==6)
+		{
+			c=0;
+			if(f==2)
+			{
+				cout<<2<<endl;
+				f=0;
+				sum=0;
+				continue;
+			}
+			if(sum==0)
+			{
+				break;
+			}
+			if(sum%36==0)
+			{
+				cout<<sum/36<<endl;
+			}
+			else
+			{
+				cout<<sum/36+1<<endl;
+			}
+			if(f==1)
+			{
+				f=0;
+				sum=0;
+			}
+		}
+	}
+	return 0;
+}
